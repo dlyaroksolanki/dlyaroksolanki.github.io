@@ -58,11 +58,12 @@ input{
 	font-size: 20px;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 720px) {
 	body {
 	background-image: url(screen-2.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .main {
 	margin-top:50%;
