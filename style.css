@@ -5,11 +5,12 @@
 a {
 	display: none;
 }
-body {
-	background-image: url(orig.jpeg);
-	background-position: top;
-	background-repeat: no-repeat;
+html{
+	background-image: url(orig.jpeg) no-repeat center center fixed;
 	background-size: cover;
+}
+body {
+	
 }
 .main {
 	height: 416px;
@@ -59,12 +60,12 @@ input{
 }
 
 @media screen and (max-width: 1080px) {
-	body {
-	background-image: url(screen-1.jpg);
+	html {
+	background-image: url(screen-1.jpg) no-repeat center center fixed;
 	background-position: top;
 }
 .main {
-	margin-top:30%;
+	margin-top:50%;
 }
 }
 

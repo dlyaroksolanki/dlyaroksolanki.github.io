@@ -12,10 +12,8 @@ a {
 	text-align: center;
 	padding-top: 10px;
 }
-body {
-	background-image: url(vitannya.jpg);
-	background-position: top;
-	background-repeat: no-repeat;
+html {
+	background-image: url(vitannya.jpg)  no-repeat center center fixed;
 	background-size: cover;
 }
 .main {
@@ -39,11 +37,9 @@ body {
 	text-align: center;
 }
 @media screen and (max-width: 1080px) {
-	body {
-	background-image: url(IMG_5653-01.jpeg);
+	html {
+	background-image: url(screen-1.jpg) no-repeat center center fixed;
 	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 .main {
 	margin-top:95%;
