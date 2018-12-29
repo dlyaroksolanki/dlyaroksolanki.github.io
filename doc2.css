@@ -12,7 +12,7 @@ a {
 	text-align: center;
 	padding-top: 10px;
 }
-html {
+body {
 	background-image: url(vitannya.jpg)  no-repeat center center fixed;
 	background-size: cover;
 }
@@ -37,7 +37,7 @@ html {
 	text-align: center;
 }
 @media screen and (max-width: 1080px) {
-	html {
+	body {
 	background-image: url(IMG_5653-01.jpeg) no-repeat center center fixed;
 	background-position: top;
 }

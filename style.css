@@ -5,12 +5,9 @@
 a {
 	display: none;
 }
-html{
+body{
 	background-image: url(orig.jpeg) no-repeat center center fixed;
 	background-size: cover;
-}
-body {
-	
 }
 .main {
 	height: 416px;
@@ -60,7 +57,7 @@ input{
 }
 
 @media screen and (max-width: 1080px) {
-	html {
+	body {
 	background-image: url(screen-1.jpg) no-repeat center center fixed;
 	background-position: top;
 }
