@@ -38,7 +38,7 @@ body {
 	font-size: 20px;
 	text-align: center;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1080px) {
 	body {
 	background-image: url(IMG_5653-01.jpeg);
 	background-position: top;
