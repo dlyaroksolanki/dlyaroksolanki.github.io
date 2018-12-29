@@ -1,0 +1,70 @@
+* {
+	margin:0;
+	padding: 0;
+}
+a {
+	display: none;
+}
+body {
+	background-image: url(orig.jpeg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main {
+	height: 416px;
+	width: 368px;
+	padding: 48px 40px 36px 40px;
+	border-radius: 5px;
+	margin: 6% auto;
+	border: 1px solid grey;
+	background-color: white;
+	opacity: 0.75;
+}
+.main h3 {
+	text-align: center;
+	font-size: 25px;
+	line-height: 2;
+	font-weight: normal;
+}
+
+button {
+	box-sizing: border-box;
+	border:1px solid blue;
+	border-radius: 3px;
+	background-color: blue;
+	color: white;
+	width: 200px;
+	height:40px;
+	text-align: center;
+	margin-left: 84px;
+	margin-top: 30px;
+	padding-top:4px;
+	border-radius: 2px;
+	font-size:25px;
+}
+button:hover {
+	background-color: white;
+	color:blue;
+	cursor:pointer;
+}
+
+input{
+	display: block;
+	margin: 60px 59px;
+	border-radius: 5px;
+	width: 250px;
+	height: 30px;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+	body {
+	background-image: url(screen-1.jpg);
+	background-position: top;
+}
+.main {
+	margin-top:30%;
+}
+}
+

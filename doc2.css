@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+body {
+	background-image: url(vitannya.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main {
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: #d3faff;
+	width: 60%;
+	height: 130px;
+	margin-top: 30%;
+	margin-left:20%;
+	margin-right: 20%;
+	justify-content: center;
+}
+.main h2 {
+	text-align: center;
+	font-size: 40px;
+}
+.main p {
+	padding-top:12px;
+	font-size: 20px;
+	text-align: center;
+}
+@media screen and (max-width: 1080px) {
+	body {
+	background-image: url(IMG_5653-01.jpeg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main {
+	margin-top:95%;
+	background-color: #9cad4b;
+}
+}
