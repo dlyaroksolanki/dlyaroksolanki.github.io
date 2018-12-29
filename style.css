@@ -9,7 +9,7 @@ body{
 	background-image: url(orig.jpeg);
 	background-position: top;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 .main {
 	height: 416px;
@@ -63,7 +63,7 @@ input{
 	background-image: url(screen-2.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 .main {
 	margin-top:50%;
