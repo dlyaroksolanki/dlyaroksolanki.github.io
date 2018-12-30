@@ -46,7 +46,10 @@ body {
 	background-size: cover;
 }
 .main {
+	height: 170px;
 	margin-top:135%;
 	background-color: #9cad4b;
 }
+.main p {
+	font-size: 30px;
 }
